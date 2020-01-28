@@ -1,0 +1,20 @@
+{
+  "name": "pubsubtest",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "node server.js --http 3000 --pub 5001 --sub 5002",
+    "start-client": "node client.js --http 3000 --pub 5001 --sub 5002"
+  },
+  "dependencies": {
+    "minimist": "1.2.0",
+    "nanoid": "2.1.10",
+    "readline": "1.3.0",
+    "sqlite3": "4.1.1",
+    "zeromq": "5.2.0"
+  },
+  "keywords": [],
+  "author": "siver",
+  "license": "ISC"
+}
